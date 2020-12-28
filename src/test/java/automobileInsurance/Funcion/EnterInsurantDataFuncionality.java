@@ -30,15 +30,14 @@ public class EnterInsurantDataFuncionality extends BaseTest {
 
     }
 
-    public void clicarNext(){
-        this.enterInsurantDataPage.getBtnNext().click();
+    public void clicarBtnNextEnterProductData(){
+        this.enterInsurantDataPage.getBtnNextEnterProductData().click();
     }
 
-    public String retornMensagem(){
+    public String validarTituloEnterProductData(){
         return driver.findElement(By.xpath("//li[@class='idealsteps-step-active']/child::a[@id=\"enterproductdata\" and @name=\"Enter Product Data\"]")).getText();
-
-
-
+       
+        
     }
-
+    
 }

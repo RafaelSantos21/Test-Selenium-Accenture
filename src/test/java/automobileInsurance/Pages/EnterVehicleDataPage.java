@@ -41,7 +41,7 @@ public class EnterVehicleDataPage extends BaseTest {
     @FindBy(xpath ="//input[@id=\"annualmileage\" and @name=\"Annual Mileage\"]")
     private WebElement textBoxAnnualMileage;
     @FindBy(xpath = "//button[@id=\"nextenterinsurantdata\" and @name=\"Next (Enter Insurant Data)\"]")
-    private WebElement buttonNext;
+    private WebElement btnNextInsurantData;
 
     public WebElement getOpenListMake(){return openListMake;}
     public WebElement getOpenListModelCar(){return openListModelCar;}
@@ -57,7 +57,7 @@ public class EnterVehicleDataPage extends BaseTest {
     public WebElement getTextBoxListPrice() { return textBoxListPrice; }
     public WebElement getTextBoxLicensePlateNumber() { return textBoxLicensePlateNumber; }
     public WebElement getTextBoxAnnualMileage() { return textBoxAnnualMileage; }
-    public WebElement getButtonNext() { return buttonNext; }
+    public WebElement getBtnNextInsurantData() { return btnNextInsurantData; }
 
 
 

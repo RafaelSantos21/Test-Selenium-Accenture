@@ -23,9 +23,10 @@ public class EnterProductDataFuncionality extends BaseTest {
         this.utils.selectByValue(this.enterProductDataPage.getCortesyCar(),"Yes");
 
     }
-
-    public void clicarBtnNext(){ this.enterProductDataPage.getBtnNextPriceOption().click(); }
-    public String retornMensagem() {
-        return driver.findElement(By.xpath("//li[@class='idealsteps-step-active']/child::a[@id=\"selectpriceoption\" and @name=\"Select Price Option\"]")).getText();
+    public void clicarBtnNextSelectPriceOption() {this.enterProductDataPage.getBtnNextSelectPriceOption().click();}
+    
+    public String validarTituloSelectPriceOption() {
+    	 return driver.findElement(By.xpath("//li[@class='idealsteps-step-active']/child::a[@id=\"selectpriceoption\" and @name=\"Select Price Option\"]")).getText();
     }
+    
 }

@@ -25,12 +25,12 @@ public class SendQuoteFuncionality extends BaseTest {
 
     }
 
-    public void clicarBtnNext(){ this.sendQuotePage.getBtnSendEmail().click(); }
-
-    public String retornMessageSendingEmailSuccess(){
+    public void clicarBtnSendEmail() {this.sendQuotePage.getBtnSendEmail().click();} 
+    public String validarMensagemSendingEmailSuccess(){
         wait.until(ExpectedConditions.textToBePresentInElement(this.sendQuotePage.getMessageSendingEmailSuccess(),"Sending e-mail success!"));
         return driver.findElement(By.xpath("//div[@class='sa-icon sa-custom']/following-sibling::h2[contains(text(), 'Sending e-mail success!')]")).getText();
-
+        
     }
+   
 }
 

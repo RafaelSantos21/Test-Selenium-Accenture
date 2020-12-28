@@ -9,19 +9,11 @@ import org.openqa.selenium.By;
 public class EnterVehicleDataFuncionality extends BaseTest {
 
     private EnterVehicleDataPage enterVehicleDataPage;
-    private EnterInsurantDataPage enterInsurantDataPage;
-    private EnterProductDataPage enterProductDataPage;
-    private SelectPriceOptionPage selectPriceOptionPage;
-    private SendQuotePage sendQuotePage;
     private Utils utils;
 
 
    public EnterVehicleDataFuncionality(){
        this.enterVehicleDataPage = new EnterVehicleDataPage(driver);
-       this.enterInsurantDataPage = new EnterInsurantDataPage(driver);
-       this.enterProductDataPage = new EnterProductDataPage(driver);
-       this.selectPriceOptionPage = new SelectPriceOptionPage(driver);
-       this.sendQuotePage = new SendQuotePage(driver);
        this.utils = new Utils();
    }
 
@@ -44,12 +36,9 @@ public class EnterVehicleDataFuncionality extends BaseTest {
 
    }
 
-    public void clicarBtnNext(){ this.enterVehicleDataPage.getButtonNext().click(); }
+    public void clicarBtnNextEnterInsurantData(){ this.enterVehicleDataPage.getBtnNextInsurantData().click(); }
 
-    public String retornMensagem(){
-        return driver.findElement(By.xpath("//li[@class='idealsteps-step-active']/child::a[@id=\"enterinsurantdata\" and @name=\"Enter Insurant Data\"]")).getText();
-
-
-
+    public String validarTituloEnterInsuranceData() {
+    	return driver.findElement(By.xpath("//li[@class='idealsteps-step-active']/child::a[@id=\"enterinsurantdata\" and @name=\"Enter Insurant Data\"]")).getText();
     }
 }

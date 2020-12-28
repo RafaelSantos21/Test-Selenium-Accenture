@@ -35,7 +35,10 @@
         </dependency>
     </dependencies>
 
-
+	<properties>
+	    <browser>chrome</browser>
+	    <chromeDriverBinary>src/test/resources/chromedriver.exe</chromeDriverBinary>
+	</properties>
 
 
 </project>

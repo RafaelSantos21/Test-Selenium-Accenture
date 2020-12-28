@@ -15,10 +15,10 @@ public class BaseTest {
         startDriver(true);
     }
 
-    protected static void startDriver(boolean maximizar) {
+    protected void startDriver(boolean maximizar) {
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rafah\\Desktop\\Teste_Selenium_Accenture\\chromewindows\\chromedriver.exe");
-            driver = new ChromeDriver();
+        	 System.setProperty("webdriver.chrome.driver", this.getClass().getClassLoader().getResource("chromedriver.exe").getPath()); 
+        	driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             wait = new WebDriverWait(driver, 30);
 

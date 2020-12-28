@@ -36,7 +36,7 @@ public class EnterInsurantDataPage extends BaseTest {
     @FindBy(xpath = "//input[@id='other']/following-sibling::span[@class='ideal-check']")
     private WebElement selectHobbies;
     @FindBy(xpath = "//button[@id=\"nextenterproductdata\" and @name=\"Next (Enter Product Data)\"]")
-    private WebElement btnNext;
+    private WebElement btnNextEnterProductData;
 
 
     public WebElement getFirstName() { return firstName; }
@@ -49,6 +49,6 @@ public class EnterInsurantDataPage extends BaseTest {
     public WebElement getStreetAddress() { return streetAddress; }
     public WebElement getSelectHobbies() { return selectHobbies; }
     public WebElement getCity() { return city; }
-    public WebElement getBtnNext() { return btnNext; }
+    public WebElement getBtnNextEnterProductData() { return btnNextEnterProductData; }
 
 }

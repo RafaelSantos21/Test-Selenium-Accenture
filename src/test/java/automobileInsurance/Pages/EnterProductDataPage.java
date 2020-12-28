@@ -25,7 +25,7 @@ public class EnterProductDataPage extends BaseTest {
     @FindBy(xpath = "//select[@id=\"courtesycar\" and @name=\"Courtesy Car\"]")
     private WebElement cortesyCar;
     @FindBy(xpath = "//button[@id=\"nextselectpriceoption\" and @name=\"Next (Select Price Option)\"]")
-    private WebElement btnNextPriceOption;
+    private WebElement btnNextSelectPriceOption;
 
     public WebElement getStartDate() { return startDate; }
     public WebElement getInsuranceSum() { return insuranceSum; }
@@ -33,6 +33,6 @@ public class EnterProductDataPage extends BaseTest {
     public WebElement getDamageInsurance() { return damageInsurance; }
     public WebElement getEuroProtection() { return euroProtection; }
     public WebElement getCortesyCar() { return cortesyCar; }
-    public WebElement getBtnNextPriceOption(){return btnNextPriceOption;}
+    public WebElement getBtnNextSelectPriceOption(){return btnNextSelectPriceOption;}
 
 }
