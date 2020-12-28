@@ -2,44 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20df522d-769b-4321-9b52-774d24999bd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Rafah.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chromewindows/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/BaseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/BaseTest/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterInsurantDataFuncionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterInsurantDataFuncionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterProductDataFuncionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterProductDataFuncionality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterVehicleDataFuncionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/EnterVehicleDataFuncionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/SelectPriceOptionFuncionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/SelectPriceOptionFuncionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/SendQuoteFuncionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Funcion/SendQuoteFuncionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterInsurantDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterInsurantDataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterProductDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterProductDataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterVehicleDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/Pages/EnterVehicleDataPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT001 - Cadastrar Dados do Veiculo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT001 - Cadastrar Dados do Veiculo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT002 - Cadastrar Dados do Seguro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT002 - Cadastrar Dados do Seguro.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT003 - Cadastrar Dados do Produto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT003 - Cadastrar Dados do Produto.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT004 - Selecionar Opcao de Preco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT004 - Selecionar Opcao de Preco.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT005 - Confimar envio de cotacao.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT005 - Confimar envio de cotacao.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT006 - Solicitar Seguro de Automovel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automobileInsurance/step/AutomobileInsuranceStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automobileInsurance/step/AutomobileInsuranceStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/BaseTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/BaseTest/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterInsurantDataFuncionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterInsurantDataFuncionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterProductDataFuncionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterProductDataFuncionality.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterVehicleDataFuncionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/EnterVehicleDataFuncionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/SelectPriceOptionFuncionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/SelectPriceOptionFuncionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/SendQuoteFuncionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Funcion/SendQuoteFuncionality.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterInsurantDataPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterInsurantDataPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterProductDataPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterProductDataPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterVehicleDataPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/Pages/EnterVehicleDataPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT001 - Cadastrar Dados do Veiculo.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT001 - Cadastrar Dados do Veiculo.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT002 - Cadastrar Dados do Seguro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT002 - Cadastrar Dados do Seguro.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT003 - Cadastrar Dados do Produto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT003 - Cadastrar Dados do Produto.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT004 - Selecionar Opcao de Preco.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT004 - Selecionar Opcao de Preco.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT005 - Confimar envio de cotacao.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT005 - Confimar envio de cotacao.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/features/CT006 - Solicitar Seguro de Automovel.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/automobileInsurance/step/AutomobileInsuranceStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/automobileInsurance/step/AutomobileInsuranceStep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +78,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: CT002 - Cadastrar Dados do Seguro" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT002 - Cadastrar Dados do Seguro.feature" />
+      <option name="GLUE" value="automobileInsurance.Step" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Teste_Selenium_Accenture" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CT002 - Cadastrar Dados do Seguro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: CT003 - Cadastrar Dados do Produto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT003 - Cadastrar Dados do Produto.feature" />
+      <option name="GLUE" value="automobileInsurance.Step" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Teste_Selenium_Accenture" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: CT003 - Cadastrar Dados do Produto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: CT005 - Confimar envio de cotacao " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT005 - Confimar envio de cotacao.feature" />
@@ -118,30 +110,6 @@
       <module name="Teste_Selenium_Accenture" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: CT005 - Confimar envio de cotacao" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: CT006 - Solicitar Seguro de Automovel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT006 - Solicitar Seguro de Automovel.feature" />
-      <option name="GLUE" value="automobileInsurance" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Teste_Selenium_Accenture" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: CT006 - Solicitar Seguro de Automovel" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: CT006 - Solicitar cotacao de Seguro de Automovel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT006 - Solicitar cotacao de Seguro de Automovel.feature" />
-      <option name="GLUE" value="automobileInsurance.step" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Teste_Selenium_Accenture" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: CT006 - Solicitar cotacao de Seguro de Automovel" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,15 +126,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: CT006 - Solicitar cotacao de Seguro de automovel" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: CT001 - Cadastro Dados do Veiculo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT006 - Solicitar cotacao de Seguro de Automovel.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/automobileInsurance/features/CT001 - Cadastrar Dados do Veiculo.feature" />
       <option name="GLUE" value="automobileInsurance.Step" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Teste_Selenium_Accenture" />
-      <option name="NAME_FILTER" value="^CT006 \- Solicitar cotacao de Seguro de automovel$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT006 \- Solicitar cotacao de Seguro de automovel$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: CT006 - Solicitar cotacao de Seguro de automovel" />
+      <option name="NAME_FILTER" value="^CT001 \- Cadastro Dados do Veiculo$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^CT001 \- Cadastro Dados do Veiculo$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: CT001 - Cadastro Dados do Veiculo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,18 +143,18 @@
       <item itemvalue="Cucumber java.Feature: CT005 - Confimar envio de cotacao " />
       <item itemvalue="Cucumber java.Feature: CT001 - Cadastrar dados do veiculo" />
       <item itemvalue="Cucumber java.Feature: CT001 - Cadastrar Dados do Veiculo" />
-      <item itemvalue="Cucumber java.Feature: CT006 - Solicitar Seguro de Automovel" />
-      <item itemvalue="Cucumber java.Feature: CT006 - Solicitar cotacao de Seguro de Automovel" />
-      <item itemvalue="Cucumber java.Scenario: CT006 - Solicitar cotacao de Seguro de automovel" />
       <item itemvalue="Cucumber java.Feature: CT006 - Solicitar cotacao de seguro de automovel" />
+      <item itemvalue="Cucumber java.Scenario: CT001 - Cadastro Dados do Veiculo" />
+      <item itemvalue="Cucumber java.Feature: CT002 - Cadastrar Dados do Seguro" />
+      <item itemvalue="Cucumber java.Feature: CT003 - Cadastrar Dados do Produto" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Feature: CT006 - Solicitar cotacao de seguro de automovel" />
+        <item itemvalue="Cucumber java.Feature: CT003 - Cadastrar Dados do Produto" />
+        <item itemvalue="Cucumber java.Feature: CT002 - Cadastrar Dados do Seguro" />
+        <item itemvalue="Cucumber java.Scenario: CT001 - Cadastro Dados do Veiculo" />
         <item itemvalue="Cucumber java.Feature: CT001 - Cadastrar Dados do Veiculo" />
-        <item itemvalue="Cucumber java.Feature: CT006 - Solicitar cotacao de Seguro de Automovel" />
-        <item itemvalue="Cucumber java.Scenario: CT006 - Solicitar cotacao de Seguro de automovel" />
-        <item itemvalue="Cucumber java.Feature: CT006 - Solicitar Seguro de Automovel" />
       </list>
     </recent_temporary>
   </component>
@@ -241,22 +209,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609118465835" />
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1609155398659">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1609164797622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609155398659" />
-    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1609155398659">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609164797622" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1609164797621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609155398659" />
-    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1609155398659">
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609164797621" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1609164797621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609155398659" />
-    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1609155398659">
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609164797621" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1609164797621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609155398659" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1638.882@0.0.1536.824" timestamp="1609164797621" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609014267170">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

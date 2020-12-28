@@ -20,7 +20,7 @@ public class BaseTest {
         	 System.setProperty("webdriver.chrome.driver", this.getClass().getClassLoader().getResource("chromedriver.exe").getPath()); 
         	driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            wait = new WebDriverWait(driver, 30);
+            wait = new WebDriverWait(driver, 10);
 
             if (maximizar == true){
                 driver.manage().window().maximize();

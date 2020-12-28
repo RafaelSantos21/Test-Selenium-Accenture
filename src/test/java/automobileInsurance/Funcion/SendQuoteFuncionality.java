@@ -16,16 +16,51 @@ public class SendQuoteFuncionality extends BaseTest {
     }
 
     public void preencherSendQuote(){
-        this.utils.preencheCampoTexto(this.sendQuotePage.getEmail(),"rafael@teste.com.br");
-        this.utils.preencheCampoTexto(this.sendQuotePage.getUserName(),"Rafa199967");
-        this.utils.preencheCampoTexto(this.sendQuotePage.getPassWord(),"Rafael1010");
-        this.utils.preencheCampoTexto(this.sendQuotePage.getConfirmPassWord(),"Rafael1010");
 
+        if(this.sendQuotePage.getEmail().isEnabled()){
+            System.out.println("Campo Email encontrado com sucesso!");
+            this.utils.preencheCampoTexto(this.sendQuotePage.getEmail(),"rafael@teste.com.br");
+            System.out.println("Campo Email preenchido com sucesso!");
+        }
+        else { System.out.println("Falha ao preencher campo Email");
+        }
 
+        if(this.sendQuotePage.getUserName().isEnabled()){
+            System.out.println("Campo Name encontrado com sucesso!");
+            this.utils.preencheCampoTexto(this.sendQuotePage.getUserName(),"Rafa199967");
+            System.out.println("Campo Name preenchido com sucesso!");
+        }
+        else { System.out.println("Falha ao preencher Campo Name ");
+        }
+
+        if(this.sendQuotePage.getPassWord().isEnabled()){
+            System.out.println("Campo PassWord encontrado com sucesso!");
+            this.utils.preencheCampoTexto(this.sendQuotePage.getPassWord(),"Rafael1010");
+            System.out.println("Campo PassWord preenchido com sucesso!");
+        }
+        else { System.out.println("Falha ao preencher Campo PassWord");
+        }
+
+        if(this.sendQuotePage.getConfirmPassWord().isEnabled()){
+            System.out.println("Campo Confirm PassWord encontrado com sucesso!");
+            this.utils.preencheCampoTexto(this.sendQuotePage.getConfirmPassWord(),"Rafael1010");
+            System.out.println("Campo Confirm PassWord preenchido com sucesso!");
+        }
+        else { System.out.println("Falha ao preencher Campo Confirm PassWord");
+        }
+    }
+
+    public void clicarBtnSendEmail() {
+        if(this.sendQuotePage.getBtnSendEmail().isEnabled()){
+            System.out.println("Botao Send Email encontrado com sucesso!");
+            this.sendQuotePage.getBtnSendEmail().click();
+            System.out.println("Botao Send Email clicado com sucesso!");
+        }
+        else { System.out.println("Falha ao clicar no Botao Send Email");
+        }
 
     }
 
-    public void clicarBtnSendEmail() {this.sendQuotePage.getBtnSendEmail().click();} 
     public String validarMensagemSendingEmailSuccess(){
         wait.until(ExpectedConditions.textToBePresentInElement(this.sendQuotePage.getMessageSendingEmailSuccess(),"Sending e-mail success!"));
         return driver.findElement(By.xpath("//div[@class='sa-icon sa-custom']/following-sibling::h2[contains(text(), 'Sending e-mail success!')]")).getText();

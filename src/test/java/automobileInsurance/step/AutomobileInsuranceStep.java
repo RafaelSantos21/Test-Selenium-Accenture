@@ -27,7 +27,8 @@ public class AutomobileInsuranceStep extends BaseTest {
 
     //CT001
     @Given("preencho os dados do veiculo")
-    public void preencho_os_dados_do_veiculo() { this.enterVehicleDataFuncionality.preencherEnterVehicleData(); }
+    public void preencho_os_dados_do_veiculo() {
+        this.enterVehicleDataFuncionality.preencherEnterVehicleData(); }
 
     @When("clico no botao next enter insurant data")
     public void clicoNoBotaoNextEnterInsurantData() {this.enterVehicleDataFuncionality.clicarBtnNextEnterInsurantData();}
