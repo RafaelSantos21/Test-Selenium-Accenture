@@ -141,11 +141,7 @@ public class AutomobileInsuranceStep extends BaseTest {
     }
 
     @Then("valido mensagem de envio de cotacao")
-    public void valido_mensagem_de_envio_de_cotacao() {
-        this.sendQuoteFuncionality.validarMensagemSendingEmailSuccess();
-    }
-
-
+    public void valido_mensagem_de_envio_de_cotacao() {this.sendQuoteFuncionality.validarMensagemSendingEmailSuccess();}
 
     @Before
     public void setUp(){ driver.get(url); }
