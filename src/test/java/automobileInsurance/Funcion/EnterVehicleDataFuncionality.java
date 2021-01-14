@@ -3,8 +3,6 @@ package automobileInsurance.Funcion;
 import automobileInsurance.BaseTest.BaseTest;
 import automobileInsurance.Pages.*;
 import automobileInsurance.BaseTest.Utils;
-import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
-import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
